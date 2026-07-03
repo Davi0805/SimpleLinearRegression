@@ -13,7 +13,7 @@ run: build
 test: build
 	ctest --test-dir $(BUILD_DIR) --output-on-failure
 
-rebuild:
+re:
 	cmake --build $(BUILD_DIR) --clean-first -j$(JOBS)
 
 full-build: clean build
