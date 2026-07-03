@@ -149,4 +149,3 @@ int main() {
 | Wrong type conversion | Make sure the template type matches the column content exactly |
 | Extra whitespace in header | rapidcsv matches column names literally — trim your CSV headers |
 | Missing values | Use `rapidcsv::ConverterParams(true)` to replace bad cells with a default |
-# SimpleLinearRegression
